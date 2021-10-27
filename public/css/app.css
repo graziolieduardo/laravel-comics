@@ -1,0 +1,29 @@
+header {
+  height: 110px;
+  background-color: red;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+header .wrapper ul {
+  display: flex;
+  list-style: none;
+}
+header .wrapper ul li {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+header .wrapper ul li a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

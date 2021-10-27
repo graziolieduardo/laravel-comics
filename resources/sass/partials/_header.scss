@@ -1,0 +1,27 @@
+header {
+    height: 110px;
+    background-color: red;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                margin: 0 20px;
+                text-transform: uppercase;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
