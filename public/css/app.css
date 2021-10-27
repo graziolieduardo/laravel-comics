@@ -1,6 +1,6 @@
 header {
   height: 110px;
-  background-color: red;
+  background-color: #fff;
 }
 header .wrapper {
   display: flex;
@@ -20,6 +20,50 @@ header .wrapper ul li {
 }
 header .wrapper ul li a {
   text-decoration: none;
+}
+
+#jumbotron {
+  height: 400px;
+  background-image: url("../images/jumbotron.jpg");
+}
+
+#comics {
+  background-color: #1C1C1C;
+  color: #fff;
+}
+#comics .home-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#comics .home-wrapper h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0282F9;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transform: translateY(-50%);
+}
+#comics .home-wrapper .comic-box {
+  width: calc(16.6666666667% - 20px);
+  margin: 10px;
+}
+#comics .home-wrapper .comic-box img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin-bottom: 20px;
+}
+#comics .home-wrapper .comic-box div {
+  text-transform: uppercase;
 }
 
 * {
